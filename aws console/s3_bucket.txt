@@ -1,0 +1,60 @@
+/*
+PRACTICAL 6: CREATING AN AMAZON S3 BUCKET AND UPLOADING A FILE
+
+AIM:
+To create an Amazon S3 bucket and upload a file using the AWS Management Console.
+
+THEORY:
+Amazon S3 stands for Amazon Simple Storage Service. It is a cloud storage
+service provided by AWS to store and retrieve data over the internet.
+
+S3 CONCEPTS:
+1. Bucket
+2. Object
+3. Key
+4. Region
+5. Storage Classes
+6. Access Control
+7. Versioning
+8. Encryption
+
+PROCEDURE:
+
+STEP 1: LOGIN TO AWS
+Open https://aws.amazon.com/
+Sign in to the AWS Management Console.
+
+STEP 2: OPEN AMAZON S3
+Search for S3 in the AWS Console search bar.
+Select S3 - Scalable Storage in the Cloud.
+
+STEP 3: CREATE A BUCKET
+Click Create bucket.
+Enter a globally unique bucket name.
+Select an AWS Region.
+Keep Block all public access enabled.
+Leave other settings at their defaults.
+Click Create bucket.
+
+STEP 4: UPLOAD A FILE
+Open the newly created bucket.
+Click Upload.
+Click Add files.
+Select an image, PDF, or text file.
+Click Upload.
+
+STEP 5: VIEW THE UPLOADED FILE
+Open the bucket.
+Locate the uploaded file under Objects.
+Click the filename to view its details.
+
+STEP 6: UNDERSTAND S3 STORAGE CLASSES
+1. S3 Standard
+2. S3 Intelligent-Tiering
+3. S3 Standard-IA
+4. S3 Glacier
+
+RESULT:
+An Amazon S3 bucket was created, and a file was uploaded
+and verified using the AWS Management Console.
+*/

@@ -1,0 +1,100 @@
+/*
+PRACTICAL 7: CREATING AND ACCESSING AN AMAZON RDS MYSQL DATABASE
+
+AIM:
+To create a MySQL database using Amazon Relational Database Service
+(Amazon RDS), configure networking and security settings, connect to
+the database, and perform basic SQL operations using an EC2 instance.
+
+THEORY:
+Amazon RDS is a managed database service provided by AWS.
+It makes it easier to create, configure, and manage relational databases
+in the cloud.
+
+PROCEDURE:
+
+STEP 1: LOGIN TO AWS
+Open https://aws.amazon.com/
+Sign in to your AWS Management Console.
+
+STEP 2: OPEN AMAZON RDS
+Search for RDS in the AWS Console search bar.
+Open Amazon RDS.
+
+STEP 3: SELECT DATABASE CREATION METHOD
+Click Create database.
+Choose the database creation method available in the console.
+
+STEP 4: SELECT DATABASE ENGINE
+Select MySQL as the database engine.
+
+STEP 5: SELECT MYSQL VERSION
+Select the MySQL version specified in the practical.
+The handwritten notes mention MySQL 8.0.27.
+
+STEP 6: SELECT TEMPLATE
+Select the Free Tier template if it is available and suitable
+for your account.
+
+STEP 7: CONFIGURE DATABASE SETTINGS
+Enter a unique database identifier.
+Configure the database settings.
+
+STEP 8: CONFIGURE MASTER USERNAME
+Enter a unique master username.
+
+STEP 9: CONFIGURE PASSWORD
+Create a strong password for the database.
+Keep the password secure.
+
+STEP 10: SELECT DATABASE INSTANCE CLASS
+Choose a suitable small database instance class.
+
+STEP 11: CONFIGURE STORAGE
+Select General Purpose SSD storage.
+The handwritten notes specify 20 GiB of allocated storage.
+
+STEP 12: CONFIGURE CONNECTIVITY
+Configure the Virtual Private Cloud (VPC).
+
+STEP 13: SELECT VPC
+Select the appropriate VPC.
+The handwritten notes mention using the default VPC.
+
+STEP 14: CONFIGURE SUBNET GROUP
+Select the appropriate DB subnet group.
+
+STEP 15: CONFIGURE PUBLIC ACCESS
+The handwritten notes specify Public Access: No.
+
+STEP 16: CONFIGURE VPC SECURITY GROUP
+Select or create an appropriate VPC security group.
+Allow database connections only from the required source.
+
+STEP 17: CONFIGURE ADDITIONAL SETTINGS
+Configure the database port.
+The default MySQL port is 3306.
+
+STEP 18: CREATE DATABASE
+Review all the database configuration settings.
+Click Create database.
+
+STEP 19: WAIT FOR DATABASE CREATION
+Wait until the database status becomes Available.
+
+STEP 20: CONNECT TO THE DATABASE
+Obtain the database endpoint from the RDS console.
+Connect using an appropriate MySQL client from an authorized
+EC2 instance or another permitted environment.
+
+STEP 21: PERFORM BASIC SQL OPERATIONS
+Connect to the MySQL database.
+Create a database or table as required.
+Insert sample records.
+Retrieve records using SELECT queries.
+
+RESULT:
+An Amazon RDS MySQL database was created and configured.
+A connection was established, and basic SQL operations
+were performed successfully.
+*/
