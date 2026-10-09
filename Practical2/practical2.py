@@ -11,7 +11,7 @@
 
 # STEP 4: Install required libraries
 # python -m pip install pandas numpy matplotlib seaborn
-
+# python -m pip install pandas numpy matplotlib seaborn scikit-learn requests
 # STEP 5: Run the program
 # python Practical2/practical2.py
 
